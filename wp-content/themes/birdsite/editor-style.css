@@ -1,0 +1,271 @@
+/*
+Theme Name: BirdTIPS
+*/
+/*
+Used to style the TinyMCE editor.
+*/
+html .mceContentBody {
+	max-width:630px;
+	}
+
+* {
+  font-family: 'Lucida Grande','Verdana','Hiragino Kaku Gothic ProN',Meiryo, sans-serif;
+  color: #555555;
+	}
+
+body, input, textarea {
+	}
+
+a {
+	color:#06A !important;
+	text-decoration: none !important;
+	}
+
+hr {
+	background-color: #E7E7E7;
+	border:0;
+	height: 1px;
+	margin-bottom: 1em;
+	clear:both;
+	}
+
+p {
+	text-align: left;
+	line-height: 1.6;
+	}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0.7em 0;
+  line-height: 1.2;
+  color: #000; }
+
+h1 {
+  font-size: 2.4rem; }
+
+h2 {
+  font-size: 2rem;
+  border-bottom: dashed 1px #CCC;
+  padding-bottom: 0.4em;}
+
+h3 {
+  font-size: 1.8rem;
+  border-left: solid 7px #CCC;
+  padding-left: 10px; }
+
+h4 {
+  font-size: 1.6rem; }
+
+h5 {
+  font-size: 1.4rem; }
+
+h6 {
+  font-size: 1.2rem; }
+
+blockquote {
+  margin-left: 1em;
+  padding-left: 1em;
+  border-left: 5px solid #CCC;
+  }
+
+pre {
+	border: dashed 1px #CCC;
+	padding: 10px;
+	}
+
+ul {
+    margin: 0 0 1.6em 1em;
+    padding: 0 0 0 1em;
+	list-style: disc;
+	}
+
+ul ul {
+	margin-bottom: 0;
+	list-style: circle;
+	}
+
+ul ul ul {
+	list-style: square;
+	}
+
+ul ul ul ul {
+	list-style: disk;
+	}
+
+ol {
+    margin: 0 0 1.6em 1em;
+    padding: 0 0 0 1em;
+    list-style: decimal;
+	}
+
+ol ol {
+	list-style:upper-alpha;
+	margin-bottom: 0;
+	}
+
+ol ol ol {
+	list-style:lower-roman;
+	}
+
+ol ol ol ol {
+	list-style:lower-alpha;
+	}
+
+dl {
+	margin:0 0 1em 0;
+	line-height: 1.6;
+	}
+
+dt {
+	font-weight: bold;
+	}
+
+dd {
+	margin-bottom: 1em;
+	padding: 0;
+	}
+
+del {
+	 color: #C00;
+	}
+
+ins {
+	background: #ffc;
+    text-decoration: none;
+    }
+
+strong {
+	font-weight: bold;
+	}
+
+em,
+i,
+q {
+	font-style: italic;
+	}
+
+small {
+    line-height: 1;
+    color: #999999;
+    }
+
+cite:before {
+    content: "-";
+    }
+
+cite {
+    color: #999999;
+    display: block;
+    }
+
+big {
+	font-size: 130%;
+	}
+
+abbr {
+	text-transform: lowercase;
+	border-bottom: 1px dotted #666;
+	cursor: help;
+	}
+
+acronym {
+	text-transform: uppercase;
+	border-bottom: 1px dotted #666;
+	cursor: help;
+	}
+
+pre, code, samp, kbd, var{
+	font:100% mono-space,monospace;
+	}
+
+table {
+  max-width: 100%;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+table th,
+table td {
+	border: 1px solid #CCC;
+	line-height: 20px;
+	padding: 8px;
+	text-align: left;
+	vertical-align: top; }
+
+table th {
+	  background: #555555;
+	  color: #FFF; }
+
+img[class*="wp-image-"] {
+	height: auto;
+	max-width: 100%;
+	}
+
+img.size-full {
+	width: auto; /* Prevent stretching of full-size images in IE8 */
+	}
+
+img.wp-smiley {
+	border: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+	}
+
+p img,
+.wp-caption {
+	margin-top: 0.4em;
+	}
+
+.aligncenter {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	}
+
+.alignleft {
+	float: left;
+	margin-right: 0.5em;
+	}
+
+.alignright {
+	float: right;
+	margin-left: 0.5em;
+	}
+
+img.alignleft,
+img.alignright,
+img.aligncenter {
+	margin-bottom: 0.75em;
+	}
+
+.wp-caption {
+    background: none repeat scroll 0 0 #F5F5F5;
+    color: #999999;
+    font-size: 0.8em;
+    max-width: 100%;
+    padding-top: 5px;
+    text-align: center;
+	}
+
+.wp-caption img {
+	display: block;
+	margin: 5px auto 0 !important;
+	max-width: 98%;
+	}
+
+.wp-caption a {
+	border: none !important;
+	}
+
+.wp-caption .wp-caption-text,
+.wp-caption-dd {
+    color: #999999;
+	margin: 0 0 0.6em 0 !important;
+	padding: 0 0 5px 0;
+	position: relative;
+	}
+
+.wp-smiley {
+	margin:0;
+	}
+	

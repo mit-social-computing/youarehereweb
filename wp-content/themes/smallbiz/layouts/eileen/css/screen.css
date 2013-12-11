@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+
+/* Eileen Unique CSS */
+
+
+#homepage-main-text{
+margin-left: 35px;
+margin-right: 32px;
+overflow: hidden;
+width: 931px;
+}
+
+#homepage-main-text img{
+padding:0px;
+-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+    -moz-box-shadow:  0 1px 2px #AAAAAA;
+	-webkit-box-shadow:  0 1px 2px #AAAAAA;
+    box-shadow: 0 1px 2px #AAAAAA;
+}
+
+#homepage-box1{
+float: left;
+width: 202px;
+margin-right:18px;
+margin-left:20px;
+margin-bottom:4px;
+padding-left:15px;
+padding-right:5px;
+padding-top:20px;
+padding-bottom:15px;
+overflow:hidden;
+	}
+	
+#homepage-box1 img{
+width: 202px;
+padding:0px;
+margin-top:6px;
+}
+
+
+#homepage-box2{
+float: left;
+width: 202px;
+margin-right:18px;
+padding-left:15px;
+padding-right:5px;
+padding-top:20px;
+padding-bottom:15px;
+overflow:hidden;
+	}
+
+#homepage-box2 img{
+width: 202px;
+padding:0px;
+margin-top:6px;
+}
+
+#homepage-box3{
+float: left;
+width: 202px;
+margin-right:18px;
+padding-left:15px;
+padding-right:5px;
+padding-top:20px;
+padding-bottom:15px;
+overflow:hidden;
+	}
+
+#homepage-box3 img{
+width: 202px;
+padding:0px;
+margin-top:6px;
+}
+
+#homepage-box4{
+float: left;
+width: 202px;
+padding-left:15px;
+padding-right:15px;
+padding-top:20px;
+padding-bottom:15px;
+overflow:hidden;
+	}
+
+#homepage-box4 img{
+width: 202px;
+padding:0px;
+margin-top:6px;
+}
+
+

@@ -1,0 +1,17 @@
+#hometext ul,li{
+	list-style-position: inside;
+}
+
+#hometext ol,li{
+	list-style-position: inside;
+}
+
+#homeimage{
+	float: left;
+	margin-right:25px;
+	margin-bottom:2px;
+}
+
+#homeimage p{
+	margin:0px
+}

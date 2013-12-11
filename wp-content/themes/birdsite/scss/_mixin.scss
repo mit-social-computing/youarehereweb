@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+// BirdTIPS
+// SCSS mixin
+
+@mixin text-hide() {
+	display:block;text-indent:-9999px;overflow:hidden;font-size:0;
+}
+
+@mixin clear-fix() {
+	*zoom: 1;
+	&:after {
+		content: ""; 
+		clear: both; 
+		display: block;
+	}
+}
+
+@mixin alpha($param) {
+	-moz-opacity:$param;
+	opacity:$param;
+	filter:alpha(opacity=$param*100);
+}
+
+@mixin gradient-updown($up, $down) {
+	background: $up; // Old browsers
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.99, $down), color-stop(0, $up), color-stop(0, $up), color-stop(0, $up));
+	background: -webkit-linear-gradient(top, $up 0%, $up 0%, $up 0%, $down 99%);
+	background: -moz-linear-gradient(top, $up 0%, $up 0%, $up 0%, $down 99%);
+	background: -o-linear-gradient(top, $up 0%, $up 0%, $up 0%, $down 99%);
+	background: -ms-linear-gradient(top, $up 0%, $up 0%, $up 0%, $down 99%);
+	background: linear-gradient(top, $up 0%, $up 0%, $up 0%, $down 99%);
+}

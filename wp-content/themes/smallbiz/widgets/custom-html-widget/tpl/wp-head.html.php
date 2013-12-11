@@ -1,0 +1,1 @@
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/widgets/<?php echo $this->directory; ?>/css/wp-head.css">

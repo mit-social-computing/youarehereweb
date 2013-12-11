@@ -1,0 +1,187 @@
+
+@media screen and (max-width: 1054px) {
+
+#featured, #page, #header, #access, #widgetize_before_content{
+	width: 100% !important;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#content {
+	max-width: 540px;
+}
+	
+#accesswrap, #site-wrap {
+	padding-left: 30px;
+	padding-right: 20px;
+}
+
+.widgetized_below_content_widget {
+	padding-top: 10px;
+}
+
+.smallbiz_map iframe {
+	border: none;
+	padding: 0px;
+}	
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)
+{
+.widgetized_below_content_widget {width: 148px;}
+.widgetized_below_content_widget img {max-width: 148px;}
+}
+
+@media screen and (max-width: 918px) 
+{
+
+#content {
+	width: 90%;
+}
+
+#sidebar {
+	display:inline;width: 100%;
+}
+
+#sidebar h3{
+box-shadow:none;
+}
+
+#firstfeatured{
+	float:none;
+	width:100%;
+	padding-bottom: 15px;
+}
+
+#secondfeatured{
+	float:none;
+	width:100%;
+	padding-bottom: 15px;
+	padding-top:15px;
+}
+
+#thirdfeatured{
+	float:none;
+	width:100%;
+	padding-bottom: 10px;
+	padding-top:15px;
+}
+
+.widgetized_footer_widget {
+	float:none;
+	padding-left:22px;
+	padding-right:22px;
+}
+}
+
+@media screen and (max-width: 640px) {
+ 
+#widgetize_twocol_right{
+ 	padding-top:15px;
+ 	width:85%;
+}
+
+#widgetize_twocol_left{
+ 	padding-top:15px;
+ 	width:85%;
+}
+
+#header p{
+	display:none;
+}
+
+.smallbiz_map  {
+	position: relative;
+	padding-bottom: 65.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.smallbiz_map iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.smallbiz_localphone {
+	margin-top:20px;
+}
+}
+  
+@media handheld and (max-width: 480px), screen and (max-width: 480px) {
+
+#header h1 {
+	padding-top:10px;
+	font-size: 30px;
+}
+
+#contentsidespace {
+	margin-left:17px;
+	margin-right:17px;
+}
+
+#content{
+	padding:18px 18px 18px 18px;
+	width:87%;
+}
+
+#sidebar h3::after {
+	display:none;
+}
+
+#sidebar h3{
+	margin-right:-10px;
+}
+
+#access .menu-header li,
+div.menu li {
+	float:none;
+	position: relative;
+	padding:5px;
+}
+
+#access ul ul {
+   margin-left: 150px;
+   margin-top: -24px;
+}
+
+#access ul ul a {
+	padding:4px;
+}
+
+#access ul ul :hover > a {
+	padding:4px;
+}
+
+.contactright {
+	float:none;
+}
+
+.contactleft{
+	text-align: left;
+	width: 35%;
+}
+
+.contactphone{
+	line-height: 3em;
+}
+
+#contactsubmit{
+	margin-top:8px;
+}
+
+#homeimage{
+	text-align:center;
+	margin:0px;
+}
+
+#homeimage img {
+	margin-right:0px;
+	margin-bottom:10px;
+	width:99%;
+}
+}

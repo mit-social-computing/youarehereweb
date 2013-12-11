@@ -1,0 +1,114 @@
+.appointment-request-widget .datepicker {
+	position: relative;
+	display: inline-block;
+}
+
+.appointment-request-widget .calendar {
+  display: none;
+}
+
+.appointment-request-widget .datepicker input, .appointment-request-widget .datepicker img {
+	cursor: pointer;
+	cursor: hand;
+}
+
+.appointment-request-widget .datepicker img {
+  position: absolute;
+  right: 7px;
+  bottom: 1px;
+  width: 25px;
+  padding: 0 !important;
+  height: 25px;
+  border: none !important;
+}
+
+.appointment-request-widget p {
+	margin: 15px 0;
+}
+
+#appointment_request_widget_footer_iframe {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #fff;
+	display: none;
+}
+
+#appointment_request_widget_footer_iframe iframe {
+  width: 90%;
+  height: 80%;
+  top: 10%;
+  left: 5%;
+  position: absolute;
+  border: 1px solid #ddd;
+}
+
+#appointment_request_widget_footer_iframe button {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+#appointment_request_widget_footer_iframe h6 {
+	position: absolute;
+	top: 20px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-size: 20px;
+	background: #fff;
+}
+
+.appointment-request-widget .submit, #appointment_request_widget_footer_iframe button {
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 23px;
+  height: 24px;
+  margin: 0;
+  padding: 0 10px 1px;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  -webkit-border-radius: 3px;
+  -webkit-appearance: none;
+  border-radius: 3px;
+  white-space: nowrap;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+table.kalendarz { font-size: 12px; background-color: #eee; border-radius: 5px; padding: 2px }
+table.kalendarz td,table.kalendarz th {
+  border: 1px solid #ddd;
+  padding: 4px 6px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: white;
+}
+table.kalendarz .niedziela { color: red; font-weight: bold; background-color: pink }
+table.kalendarz .nieaktywny { color: #bbb }
+table.kalendarz .niedziela.nieaktywny { color: pink; background-color: #fff }
+table.kalendarz .aktywny { cursor: pointer }
+table.kalendarz .aktywny:hover { background-color: #eee; }
+table.kalendarz .btn {
+ background-color: #eee;
+  font-size: 10px;
+  border: 1px solid #eee;
+  padding: 2px 4px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: navy
+}
+table.kalendarz .btn:hover {
+  background-color: #ccc;
+}
+table.kalendarz .rok { float: right }
+table.kalendarz .miesiac { float: left }
+table.kalendarz .swieto { color: navy; font-weight: bold; background-color: #ccc }
+ 
